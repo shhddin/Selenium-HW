@@ -16,14 +16,12 @@ public class Hw13 {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 	}
-	//ok
-	
 
 	@Test
 	public void urlTest() throws InterruptedException {
 		driver.get("https://www.xfinity.com");
 		Thread.sleep(1000);
-		
+
 	}
 
 	@AfterTest
