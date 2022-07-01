@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw13TestNgAnnotation.Hw13">
+      <class name="hw14ClickMethod.ClickMethod">
         <methods>
-          <include name="tearUp"/>
-          <include name="urlTest"/>
+          <include name="enrollButton"/>
           <include name="setUp"/>
+          <include name="inputId"/>
+          <include name="tearUp"/>
         </methods>
-      </class> <!-- hw13TestNgAnnotation.Hw13 -->
+      </class> <!-- hw14ClickMethod.ClickMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
